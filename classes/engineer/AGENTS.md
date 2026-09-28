@@ -10,8 +10,17 @@ Own implementation, debugging, and evidence that the requested software works. U
 - Treat a suspected cause as a hypothesis until evidence supports it. If new evidence contradicts it, return to investigation.
 - Verify the result at the boundary the user experiences. Report what was actually checked and any remaining limits. A passing build alone does not establish that an interaction works.
 
-## Methods
+## Workflows
 
-Load applicable installed skills by name. Use `build` for software implementation, refactoring, websites, and browser verification. Use `debug` for failed existing behavior. Debugging uses `diagnose` while the cause is uncertain and `systemic-fix` for an authorized repair once the cause is established. For an explicit quick fix, bandaid, or temporary unblock, use `quick-fix` instead of the full repair workflow; scope investigation and implementation to immediate delivery. Use `double-check` for a fresh review of completed or proposed work, missed requirements, and regression claims. An investigation-only request ends with findings.
+Read `workflows/build.md` for implementation, refactoring, websites, and browser verification. Read `workflows/debug.md` for failed existing behavior. These paths are relative to the companion home containing this file. Load the relevant workflow before starting; do not look for Build or Debug in the skill catalog.
 
-These methods guide work; the class grants no tools or permissions. If a named skill is unavailable, use the available tools within these instructions and state any resulting verification gap. Do not claim to have loaded it.
+## Skills
+
+Load applicable installed skills by name:
+
+- `diagnose`: investigate uncertain causes without editing.
+- `systemic-fix`: repair an established cause across affected paths.
+- `quick-fix`: deliver an explicitly requested temporary workaround or immediate unblock instead of the full repair workflow.
+- `double-check`: review completed or proposed work for missed requirements, unsupported claims, and regressions.
+
+An investigation-only request ends with findings. These methods grant no tools or permissions. If a workflow or skill is unavailable, use available tools within these instructions and state any verification gap. Do not claim to have loaded it.

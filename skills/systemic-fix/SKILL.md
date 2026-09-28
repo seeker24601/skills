@@ -11,7 +11,7 @@ metadata:
 
 # Systemic fix
 
-Use for bug repairs, recurring failures, and proposed fixes that address only one instance. Establish the cause with `diagnose` before editing. Repair the code responsible for the failure and verify other paths affected by the same cause. Use `build` for implementation.
+Use for bug repairs, recurring failures, and proposed fixes that address only one instance. Establish the cause with `diagnose` before editing. Repair the code responsible for the failure and verify other paths affected by the same cause. Follow the Build workflow routed by `AGENTS.md` for implementation.
 
 For an explicitly requested temporary patch or immediate unblock, use `quick-fix` instead. Return here when a durable repair is requested.
 

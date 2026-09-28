@@ -11,7 +11,7 @@ metadata:
 
 # Quick fix
 
-Use when the user requests a quick fix, bandaid, duct tape, temporary workaround, or an immediate unblock. Optimize time to a usable result. Accept technical debt, narrow coverage, duplication, and inelegant code when they shorten delivery. This mode replaces the normal root-cause repair workflow for the requested patch. Use `debug` for an ordinary bug report without a speed-first request.
+Use when the user requests a quick fix, bandaid, duct tape, temporary workaround, or an immediate unblock. Optimize time to a usable result. Accept technical debt, narrow coverage, duplication, and inelegant code when they shorten delivery. This mode replaces the normal root-cause repair workflow for the requested patch. Follow the Debug workflow routed by `AGENTS.md` for an ordinary bug report without a speed-first request.
 
 ## Patch and ship
 

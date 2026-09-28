@@ -1,17 +1,6 @@
----
-name: build
-description: Build and refine software and websites, from implementation through tests and browser verification.
-version: 0.2.1
-classes: ENGINEER
-metadata:
-  hermes:
-    tags: [engineering, implementation, verification]
-    category: development
----
-
 # Build
 
-Use for building or changing software, websites, and web interfaces. Use `debug` when existing behavior fails. Use the web workflow below when the task includes a browser interface. These instructions grant no additional tools or permissions.
+Use for building or changing software, websites, and web interfaces. Read `workflows/debug.md` when existing behavior fails. Use the web workflow below when the task includes a browser interface. These instructions grant no additional tools or permissions.
 
 ## Orient
 
