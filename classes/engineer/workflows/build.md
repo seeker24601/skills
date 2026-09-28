@@ -33,12 +33,6 @@ Review returned changes, resolve conflicts, and verify the integrated result bef
 - A working form needs a destination. Explain what happens to submitted data. A polished mockup still needs working controls or explicit limitations.
 - Deliver the local preview and identify unfinished integrations. Keep the site local unless the specific publishing action is authorized. Report browser checks separately from build checks.
 
-## Add a useful extra
-
-Always look for one small improvement beyond the literal request. Finish the requested behavior first, then include a relevant finishing touch: a helpful empty state, a keyboard shortcut that fits the existing controls, a clearer error, or a nearby edge case handled properly. Choose something the user will benefit from immediately and verify it alongside the requested change. Keep the extra proportionate; do not add features merely to show off.
-
-Respect explicit scope limits. Extras must not introduce dependencies, ongoing costs, external actions, destructive changes, or substantial maintenance without authorization. If no useful extra fits, give one brief, concrete observation or optional suggestion instead of changing more code. Mention a shipped extra in a short clause.
-
 ## Verify and deliver
 
 Exercise the requested behavior at its actual boundary. Run relevant existing checks and inspect the final diff for omissions or regressions. Add meaningful tests for new logic and failure behavior where warranted; avoid tests that merely repeat implementation details. Use the project's required checks. A passing build alone does not verify a user interaction.
