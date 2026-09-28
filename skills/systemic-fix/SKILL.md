@@ -1,7 +1,7 @@
 ---
 name: systemic-fix
 description: Repair the evidenced cause at its owning producer and cover equivalent failing paths instead of patching symptoms.
-version: 0.1.3
+version: 0.1.4
 classes: ENGINEER
 metadata:
   hermes:
@@ -23,9 +23,9 @@ Identify the existing owner that should enforce the missing invariant. Before ed
 
 ## Repair the cause
 
-Make the smallest complete correction at the responsible producer or boundary. A guard is appropriate when it enforces the actual contract; a guard that only conceals lost state leaves the bug intact. Do not silence errors, weaken tests, add unsupported retries, or make consumers compensate for a broken producer. Remove obsolete workarounds once the invariant holds.
+Make the smallest complete correction at the responsible producer or boundary. A guard is appropriate when it enforces the actual contract; a guard that only conceals lost state leaves the bug intact. Do not add a nil check merely to suppress a crash. Trace why the value is missing and restore the contract. Do not silence errors, weaken tests, add unsupported retries, or make consumers compensate for a broken producer. If a workaround needs a long defensive comment, reconsider the repair; explain a necessary invariant instead of justifying broken behavior. Remove obsolete workarounds once the invariant holds.
 
-For failures after restart, inspect persisted configuration, caches, locks, serialization, and rehydration before assuming code changed. If a state reset changes the result, investigate state validation and migration. Do not delete user state to manufacture a passing result. For unresolved causes, use bounded instrumentation without secrets or destructive side effects during an authorized repair, or return to read-only diagnosis.
+For failures after restart, inspect persisted configuration, caches, locks, serialization, and rehydration before assuming code changed. If a state reset changes the result, investigate state validation and migration. Do not delete user state to manufacture a passing result. When evidence is insufficient, instrument the uncertain boundary during an authorized repair, inspect the actual error and state transition, and reproduce again. Keep probes bounded, exclude secrets, and remove temporary instrumentation after verification. Return to read-only diagnosis if changes are not authorized.
 
 ## Prove the repair
 
