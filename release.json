@@ -1,7 +1,7 @@
 {
   "format": 1,
   "repository": "seeker24601/skills",
-  "revision": "72cb99b5c041a4f0bc266d83ed00c3ea5329c3ef",
+  "revision": "ecfd9a7a577309408ed555c984554d3c8196ea96",
   "files": {
     "classes/analyst/AGENTS.md": "c74656b0b2a07f70fe64ae9bead083aca5648eebc800197f76edcf94df33fe09",
     "classes/analyst/workflows/analyze.md": "35d1aa046987199fc52634eb72673cb93e362ae694229e1f55b55eddab2429f5",
@@ -16,7 +16,7 @@
     "classes/engineer/workflows/debug.md": "cb29504210a6e5da6314e3867b3fdba892fa41e3b46440b3d2e4675c4f095483",
     "skills/business-analysis/SKILL.md": "9a9d0500d3c5d7e2abe9766e5a6fc76e6e8ebe399962ed961835a297869b5e35",
     "skills/contrarian/SKILL.md": "b783a02cc9df8b014b83c15c2b3349ab0cbf6b24c6b14d3dd042290cdaf458d8",
-    "skills/diagnose/SKILL.md": "7ad4b0a0eb3b707fbfdecc7823df1fedb4f5cfe472a6683e9f428aa5b1ba176f",
+    "skills/diagnose/SKILL.md": "7b71c984d1072d1d00b55a58d578a8e1da0f6ebbff687726e6e67bce96f16e51",
     "skills/dissolve-page/SKILL.md": "d1daf1a349fb0fb05cd408e91c1fbcdbc1c31f056b79e751a80530cd7e34bfc2",
     "skills/double-check/SKILL.md": "6d9b287bbf2bbcda5c5068c183796b575449487618b8d4f0d0480c2ddf9f92e3",
     "skills/evidence-retrieval/SKILL.md": "2663b0f1b508f74c02b6a47028169d44a6c2f5e34098cd957bab8d311dd84fcc",
@@ -27,6 +27,6 @@
     "skills/quick-fix/SKILL.md": "5a1ada016f6f05e067b379bf83ddabae02fcca8afc16457cfad02696ac173056",
     "skills/record-keeping/SKILL.md": "4ecc8050c826316069eef38339e80639733853b87396575623d3890bb702d1e6",
     "skills/research-and-fact-check/SKILL.md": "212aae0e2d0f68b19046ce4cf95c21b77128f92d8dc88865421eb83984dbb8e4",
-    "skills/systemic-fix/SKILL.md": "9031bec633dfcf770681ba98976fb9915ea24d33a0210b3b2e7766a00335c7ed"
+    "skills/systemic-fix/SKILL.md": "aca88e55139f8d1f456f0a8b05c9ec88e5f9f933316a9e2dd823e085e6410e14"
   }
 }
