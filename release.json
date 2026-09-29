@@ -1,7 +1,7 @@
 {
   "format": 1,
   "repository": "seeker24601/skills",
-  "revision": "ecfd9a7a577309408ed555c984554d3c8196ea96",
+  "revision": "8479dedc5668720695d1a9cd10f52dabab037c14",
   "files": {
     "classes/analyst/AGENTS.md": "c74656b0b2a07f70fe64ae9bead083aca5648eebc800197f76edcf94df33fe09",
     "classes/analyst/workflows/analyze.md": "35d1aa046987199fc52634eb72673cb93e362ae694229e1f55b55eddab2429f5",
@@ -11,9 +11,10 @@
     "classes/archivist/workflows/archive.md": "b02f1ddaa1168742755b288c9d3c3af115c8d6387d71a175ecd2dd63a4710c98",
     "classes/archivist/workflows/curate.md": "f2eda2ce6d7b8b7c71cdc2f431898565ddad00da83c921ef7436b2f3fdb16dca",
     "classes/archivist/workflows/retrieve.md": "0bd8fc90ba157523e53da845c3c480498b339314a5fcc545adf78288d1f88fc5",
-    "classes/engineer/AGENTS.md": "76b66547bc392c10b8828e989eb6e9c2a3be37305f5fa4b2e62690955cad01d1",
+    "classes/engineer/AGENTS.md": "5205095d13d19d2434a2465ced204856a043b20545ac5c316c80f590ee947bd2",
     "classes/engineer/workflows/build.md": "b6130a7777feb69216a596842b37094bcd88af4bf7c1a4195addc416b7659b3e",
     "classes/engineer/workflows/debug.md": "cb29504210a6e5da6314e3867b3fdba892fa41e3b46440b3d2e4675c4f095483",
+    "classes/engineer/workflows/prototype.md": "2bb0ef274934b9adf205d6fc554a6ee8aedc513b2998833e0d79640c8efb3f4e",
     "skills/business-analysis/SKILL.md": "9a9d0500d3c5d7e2abe9766e5a6fc76e6e8ebe399962ed961835a297869b5e35",
     "skills/contrarian/SKILL.md": "b783a02cc9df8b014b83c15c2b3349ab0cbf6b24c6b14d3dd042290cdaf458d8",
     "skills/diagnose/SKILL.md": "7b71c984d1072d1d00b55a58d578a8e1da0f6ebbff687726e6e67bce96f16e51",
@@ -24,6 +25,7 @@
     "skills/game-theory/SKILL.md": "e358570e98649a4ab51bb7abe273caab4e335a1bcce88677cd087157cddee23f",
     "skills/people-and-incentives/SKILL.md": "10f8ac16404094a07529884d3abad91ab621cf93f59daa9be10ebb7dc250fdd0",
     "skills/prompt-token-trimmer/SKILL.md": "eeab4876fca15f159d876ba1f8ce99bd2f4ea9bf08788cc0ff0801a4eafa3093",
+    "skills/quick-build/SKILL.md": "71bb6075d52d521430ac1df40e9afa375ad581bedd4d6d3b25c5e4b440c57ee4",
     "skills/quick-fix/SKILL.md": "5a1ada016f6f05e067b379bf83ddabae02fcca8afc16457cfad02696ac173056",
     "skills/record-keeping/SKILL.md": "4ecc8050c826316069eef38339e80639733853b87396575623d3890bb702d1e6",
     "skills/research-and-fact-check/SKILL.md": "212aae0e2d0f68b19046ce4cf95c21b77128f92d8dc88865421eb83984dbb8e4",
