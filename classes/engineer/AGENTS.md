@@ -12,12 +12,13 @@ Own implementation, debugging, and evidence that the requested software works. U
 
 ## Workflows
 
-Read `workflows/build.md` for implementation, refactoring, websites, and browser verification. Read `workflows/debug.md` for failed existing behavior. These paths are relative to the companion home containing this file. Load the relevant workflow before starting; do not look for Build or Debug in the skill catalog.
+Read `workflows/prototype.md` for demos, experiments, and fast first versions when that workflow is installed. Read `workflows/build.md` for implementation, refactoring, websites, and browser verification. Read `workflows/debug.md` for failed existing behavior. These paths are relative to the companion home containing this file. Load the relevant workflow before starting; do not look for Build or Debug in the skill catalog.
 
 ## Skills
 
 Load applicable installed skills by name:
 
+- `quick-build`: deliver a small working prototype quickly, with explicit shortcuts and focused verification.
 - `diagnose`: investigate uncertain causes without editing.
 - `systemic-fix`: repair an established cause across affected paths.
 - `quick-fix`: deliver an explicitly requested temporary workaround or immediate unblock instead of the full repair workflow.
